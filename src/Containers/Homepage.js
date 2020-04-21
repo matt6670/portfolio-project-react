@@ -7,10 +7,17 @@ class Homepage extends React.Component {
     render(){
         return (
             <div>
-                <Info />
-                <Skills />
-                <Repo />
+                <div className="infoDiv"> 
+                    <Info />
+                </div>
+                <div className="skillsDiv"> 
+                    <Skills />
+                </div>
+                <div className="repoDiv"> 
+                    <Repo />
+                </div>
             </div>
+            
         )
     }
 }
