@@ -8,9 +8,9 @@ class NavBar extends Component{
         return(
             <div className={styles.navbar}>
                 <ul>
-                <li><Link activeClass="active" to="infoSection" smooth={true} duration={500}>Home</Link></li>
-                <li><Link activeClass="active" to="skillsSection" smooth={true} duration={500}>Skills</Link></li>
-                <li><Link activeClass="active" to="repoSection" smooth={true} duration={500}>Projects</Link></li>
+                <li><Link activeClass="active" to="infoSection" smooth={true} duration={1000}>Home</Link></li>
+                <li><Link activeClass="active" to="skillsSection" smooth={true} duration={1000}>Skills</Link></li>
+                <li><Link activeClass="active" to="repoSection" smooth={true} duration={1000}>Projects</Link></li>
                 </ul>
             </div>
         );
