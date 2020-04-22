@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    justify-content: flex-end;
+    position: fixed; 
+    top: 0; 
+    width: 100%
+}
+
+
+ul, li {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #e19972;
+    border-bottom-left-radius: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-left: 15px;
+    padding-right: 10px;
+    pointer-events: auto;
+  }

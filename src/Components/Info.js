@@ -3,9 +3,9 @@ import styles from './Info.module.css';
 
 const Info = () => {
     return (
-        <div className={styles.heroDiv}>
+        <div className={styles.heroDiv} id="infoSection">
             <header>
-                <h1>PORT <br/> FoLiO</h1>
+                <h1 style={{fontSize: "100px", fontWeight:'900' }}>PORT <br/> FoLiO</h1>
                 <br />
                 <p>A codie trainee at FutureProof</p>
                 <br />

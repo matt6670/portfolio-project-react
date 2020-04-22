@@ -52,15 +52,14 @@ class Repo extends React.Component {
 
     render () {
             return (
-                <div className={styles.repoSection}>
+                <div className={styles.repoSection} id="repoSection">
                     <div className={styles.descSection}>
                         <h2>Projects</h2>
                         <br />
-                        <h3>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, 
+                        <h4>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, 
                             vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim 
-                            qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. 
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod 
-                            tincidunt ut laoreet dolore magna aliquam erat volutpat.</h3>
+                            qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</h4>
+                            <br />
                         <h3>I currently have {this.state.numRepos} repost in Github</h3>
                     </div>
                     <div className={styles.gitSection}>

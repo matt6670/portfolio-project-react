@@ -17,8 +17,8 @@
 
   
 
-  h1 {
-    font-size: 130px;
+h1{
+    font-size: 40%;
     animation: text 5s 1 ease alternate-reverse;
     animation-iteration-count: infinite;
     animation-fill-mode: both;
@@ -36,7 +36,7 @@
       text-shadow: 3px 5px rgb(180, 167, 167);
     }
     to{
-      letter-spacing: 15px;
+      letter-spacing: 10px;
       transform: rotateX(20deg);
       color: 	#ff9156;
       text-shadow: 10px 10px rgb(255, 255, 255);
