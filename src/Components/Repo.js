@@ -12,14 +12,14 @@ class Repo extends React.Component {
 
     getRepoInfo = () => {
 
-        fetch('https://api.github.com/users/matt6670')
+        fetch('https://api.github.com/users/jamesabustan')
         .then(response => response.json())
         .then(repoData => {
             this.setState({avatarURL:repoData.avatar_url});
         })
         .catch(error => console.error(error))
 
-        fetch('https://api.github.com/users/matt6670/repos')
+        fetch('https://api.github.com/users/jamesabustan/repos')
         .then(response => response.json())
         .then(repoData => {
             this.setState({numRepos: repoData.length})
@@ -46,7 +46,7 @@ class Repo extends React.Component {
 
     buttonClick = () => {
          console.log('The link was clicked.');
-         window.open("https://github.com/matt6670?tab=repositories");
+         window.open("https://github.com/jamesabustan?tab=repositories");
      }
 
 

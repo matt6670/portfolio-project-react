@@ -8,14 +8,17 @@
     font-family: Arial;
     text-align: center;
     background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    max-width: 1200px;
   }
 
   .descSection{
       display: flex;
       flex-direction: column;
-      justify-content: flex-start;
+      justify-content: center;
       margin-top: 100px;
-      width: 40%;
+      width: 60%;
+      
 
   }
 
@@ -23,8 +26,8 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: flex-start;
-      width: 60%;
+      align-items: center;
+      width: 40%;
   }
   
   .githubAvatar{
